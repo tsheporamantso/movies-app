@@ -1,8 +1,9 @@
 import './App.css';
 import SearchBar from './components/SearchBar';
 import MoviesCards from './components/MoviesCards';
-import PersonComponent from './components/PersonComponent';
-import Counter from './components/Counter';
+// import PersonComponent from './components/PersonComponent';
+// import Counter from './components/Counter';
+
 
 const App = () => {
  
@@ -10,8 +11,8 @@ const App = () => {
     <div className="App">
       <SearchBar />
       <MoviesCards />
-      <PersonComponent />
-      <Counter />
+      {/* <PersonComponent />
+      <Counter /> */}
     </div>
   );
 }
