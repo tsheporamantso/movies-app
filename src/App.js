@@ -1,13 +1,15 @@
 import './App.css';
 import SearchBar from './components/SearchBar';
 import MoviesCards from './components/MoviesCards';
+import PersonComponent from './components/PersonComponent';
 
 const App = () => {
+ 
   return (
     <div className="App">
       <SearchBar />
       <MoviesCards />
-      <h1>Hello React</h1>
+      <PersonComponent />
     </div>
   );
 }
